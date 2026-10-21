@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "바른골프피팅센터 동래점",
-  description: "부산 동래구 바른골프피팅센터 동래점에서 스윙 분석과 맞춤 골프 클럽 피팅을 경험하세요."
+  description: "부산 사직야구장 앞 바른골프피팅센터 동래점. 클럽 피팅, 리샤프팅, 클럽 수리와 그립 교체 전문."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

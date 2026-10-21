@@ -1,7 +1,7 @@
 const services = [
-  { number: "01", title: "스윙 분석", text: "고속 카메라와 런치 모니터로 스윙의 원인을 숫자와 영상으로 확인합니다.", icon: "↗" },
-  { number: "02", title: "클럽 피팅", text: "헤드부터 샤프트, 그립까지 지금의 스윙과 목표에 맞춰 조합합니다.", icon: "⌁" },
-  { number: "03", title: "퍼포먼스 체크", text: "피팅 전후 데이터를 비교해 달라진 탄도와 비거리를 직접 확인합니다.", icon: "◎" }
+  { number: "01", title: "클럽 피팅", text: "스윙과 플레이 스타일에 맞춰 헤드와 샤프트를 세심하게 조합합니다.", icon: "↗" },
+  { number: "02", title: "클럽 수리·리샤프팅", text: "샤프트 교체와 수리부터 아이언 리샤프팅까지 꼼꼼하게 작업합니다.", icon: "⌁" },
+  { number: "03", title: "그립 교체", text: "손 크기와 선호에 맞는 그립으로 교체해 편안한 스윙을 도와드립니다.", icon: "◎" }
 ];
 
 const steps = ["상담과 목표 설정", "현재 클럽·스윙 측정", "시타와 조합 테스트", "결과 리포트 및 피팅"];
@@ -21,8 +21,8 @@ export default function Home() {
         <div className="hero-content">
           <p className="fit-eyebrow"><span /> YOUR SWING. YOUR FIT.</p>
           <h1>좋은 스윙은<br />좋은 <em>핏</em>에서 시작됩니다.</h1>
-          <p className="hero-lead">감이 아닌 데이터로 찾는 나만의 클럽.<br />그린포인트에서 스윙의 가능성을 확인하세요.</p>
-          <div className="hero-links"><a href="#visit" className="fit-button">피팅 상담 예약 <span>↗</span></a><a href="#services" className="text-link">서비스 둘러보기 <span>↓</span></a></div>
+          <p className="hero-lead">클럽 피팅부터 수리와 그립 교체까지.<br />사직야구장 앞 바른골프피팅 동래점에서 상담하세요.</p>
+          <div className="hero-links"><a href="tel:050713905980" className="fit-button">전화 상담 예약 <span>↗</span></a><a href="#services" className="text-link">서비스 둘러보기 <span>↓</span></a></div>
         </div>
         <div className="hero-caption"><span>01 / 03</span><span>FIT YOUR GAME</span><span>DONGNAE · BUSAN</span></div>
         <div className="hero-side-note">PRECISION FITTING <span>—</span> BUILT AROUND YOU</div>
@@ -30,7 +30,7 @@ export default function Home() {
 
       <section className="fit-intro" id="studio">
         <div className="intro-label"><span>ABOUT GREENPOINT</span><span>01 — 04</span></div>
-        <div className="intro-copy"><h2>클럽이 바뀌면<br />골프가 <em>달라집니다.</em></h2><div><p>모든 골퍼에게 같은 클럽이 맞을 수는 없습니다. 스윙의 속도와 궤도, 원하는 탄도를 세밀하게 읽고 지금의 나에게 가장 잘 맞는 조합을 함께 찾습니다.</p><a href="#process" className="under-link">우리의 피팅 방식 <span>↗</span></a></div></div>
+        <div className="intro-copy"><h2>클럽이 바뀌면<br />골프가 <em>달라집니다.</em></h2><div><p>바른골프피팅 동래점은 클럽 맞춤 제작과 리샤프팅, 수리, 그립 교체를 전문으로 합니다. 내 스윙과 플레이에 맞는 클럽을 상담해 보세요.</p><a href="#process" className="under-link">우리의 피팅 방식 <span>↗</span></a></div></div>
         <div className="intro-stats"><div><strong>1:1</strong><span>골퍼별 맞춤 세션</span></div><div><strong>DATA</strong><span>측정에 기반한 피팅</span></div><div><strong>ALL LEVELS</strong><span>초보부터 투어 골퍼까지</span></div></div>
       </section>
 
@@ -43,7 +43,7 @@ export default function Home() {
 
       <section className="fit-quote"><span className="quote-mark">“</span><p>더 멀리보다 중요한 건,<br />내가 원하는 곳으로 보내는 것.</p><span className="quote-caption">FIND YOUR FEEL. TRUST YOUR NUMBERS.</span></section>
 
-      <section className="fit-visit" id="visit"><div className="visit-heading"><p className="fit-eyebrow dark">COME FIND YOUR FIT</p><h2>당신의 다음 라운드,<br /><em>여기서 시작하세요.</em></h2><p>방문 전 예약해 주시면 여유로운 상담과 시타가 가능합니다.</p><a className="fit-button dark-button" href="https://map.kakao.com/?q=%EB%B0%94%EB%A5%B8%EA%B3%A8%ED%94%84%ED%94%BC%ED%8C%85%EC%84%BC%ED%84%B0%20%EB%8F%99%EB%9E%98%EC%A0%90" target="_blank" rel="noreferrer">센터 위치 확인 <span>↗</span></a></div><div className="visit-card"><div className="map-placeholder"><span>B</span><small>DONGNAE · BUSAN</small></div><div className="visit-info"><div><span>LOCATION</span><strong>바른골프피팅센터 동래점</strong><small>부산 동래구</small></div><div><span>HOURS</span><strong>방문 전 운영 시간을 확인해 주세요.</strong></div><div><span>CONTACT</span><strong>상담 및 예약은 센터로 문의해 주세요.</strong></div><a href="https://map.kakao.com/?q=%EB%B0%94%EB%A5%B8%EA%B3%A8%ED%94%84%ED%94%BC%ED%8C%85%EC%84%BC%ED%84%B0%20%EB%8F%99%EB%9E%98%EC%A0%90" target="_blank" rel="noreferrer">지도에서 위치 보기 <span>↗</span></a></div></div></section>
+      <section className="fit-visit" id="visit"><div className="visit-heading"><p className="fit-eyebrow dark">COME FIND YOUR FIT</p><h2>당신의 다음 라운드,<br /><em>여기서 시작하세요.</em></h2><p>방문 전 예약해 주시면 여유로운 상담과 시타가 가능합니다.</p><a className="fit-button dark-button" href="tel:050713905980">0507-1390-5980 <span>↗</span></a></div><div className="visit-card"><div className="map-placeholder"><span>B</span><small>SAJIK · DONGNAE</small></div><div className="visit-info"><div><span>ADDRESS</span><strong>부산광역시 동래구 사직북로 4</strong><small>삼정자이언츠파크 2층 210호</small></div><div><span>HOURS</span><strong>평일 11:00–20:00 · 주말 11:00–18:00</strong><small>수요일 휴무 · 평일 19시 이후 예약 필수</small></div><div><span>PARKING</span><strong>지하 2층·3층 무료 주차</strong></div><a href="https://naver.me/FuzU2m0e" target="_blank" rel="noreferrer">네이버 지도에서 위치 보기 <span>↗</span></a></div></div></section>
 
       <footer className="fit-footer"><a className="fit-brand" href="#home"><span className="brand-mark">B<span>·</span></span><span>바른골프피팅센터<small>DONGNAE · BUSAN</small></span></a><span>정확한 피팅, 더 즐거운 골프.</span><small>© 2026 바른골프피팅센터 동래점</small></footer>
     </main>
