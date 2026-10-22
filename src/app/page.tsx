@@ -16,7 +16,7 @@ export default function Home() {
       </header>
 
       <section className="fit-hero" id="home">
-        <div className="hero-image" />
+        <div className="hero-image" role="img" aria-label="바른골프피팅센터 동래점 매장 전경" />
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="fit-eyebrow"><span /> YOUR SWING. YOUR FIT.</p>
