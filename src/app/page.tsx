@@ -20,7 +20,7 @@ export default function Home() {
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="fit-eyebrow"><span /> YOUR SWING. YOUR FIT.</p>
-          <h1>좋은 스윙은<br />좋은 <em>핏</em>에서 시작됩니다.</h1>
+          <h1>좋은 스윙은<br /><em>바른 피팅에서.</em></h1>
           <p className="hero-lead">클럽 피팅부터 수리와 그립 교체까지.<br />사직야구장 앞 바른골프피팅 동래점에서 상담하세요.</p>
           <div className="hero-links"><a href="tel:050713905980" className="fit-button">전화 상담 예약 <span>↗</span></a><a href="#services" className="text-link">서비스 둘러보기 <span>↓</span></a></div>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
 
       <section className="fit-quote"><span className="quote-mark">“</span><p>더 멀리보다 중요한 건,<br />내가 원하는 곳으로 보내는 것.</p><span className="quote-caption">FIND YOUR FEEL. TRUST YOUR NUMBERS.</span></section>
 
-      <section className="fit-visit" id="visit"><div className="visit-heading"><p className="fit-eyebrow dark">COME FIND YOUR FIT</p><h2>당신의 다음 라운드,<br /><em>여기서 시작하세요.</em></h2><p>방문 전 예약해 주시면 여유로운 상담과 시타가 가능합니다.</p><a className="fit-button dark-button" href="tel:050713905980">0507-1390-5980 <span>↗</span></a></div><div className="visit-card"><a className="map-placeholder" href="https://naver.me/FuzU2m0e" target="_blank" rel="noreferrer" aria-label="네이버 지도에서 바른골프피팅센터 동래점 위치 보기"><img src="/images/barun-dongnae-location-map.png" alt="사직야구장 맞은편에 표시된 바른골프피팅센터 동래점 지도" /></a><div className="visit-info"><div><span>ADDRESS</span><strong>부산광역시 동래구 사직북로 4</strong><small>삼정자이언츠파크 2층 210호</small></div><div><span>HOURS</span><strong>평일 11:00–20:00 · 주말 11:00–18:00</strong><small>수요일 휴무 · 평일 19시 이후 예약 필수</small></div><div><span>PARKING</span><strong>지하 2층·3층 무료 주차</strong></div><a href="https://naver.me/FuzU2m0e" target="_blank" rel="noreferrer">네이버 지도에서 위치 보기 <span>↗</span></a></div></div></section>
+      <section className="fit-visit" id="visit"><div className="visit-heading"><p className="fit-eyebrow dark">COME FIND YOUR FIT</p><h2>다음 라운드는<br /><em>바른 피팅으로.</em></h2><p>방문 전 예약해 주시면 여유로운 상담과 시타가 가능합니다.</p><a className="fit-button dark-button" href="tel:050713905980">0507-1390-5980 <span>↗</span></a></div><div className="visit-card"><a className="map-placeholder" href="https://naver.me/FuzU2m0e" target="_blank" rel="noreferrer" aria-label="네이버 지도에서 바른골프피팅센터 동래점 위치 보기"><img src="/images/barun-dongnae-location-map.png" alt="사직야구장 맞은편에 표시된 바른골프피팅센터 동래점 지도" /></a><div className="visit-info"><div><span>ADDRESS</span><strong>부산광역시 동래구 사직북로 4</strong><small>삼정자이언츠파크 2층 210호</small></div><div><span>HOURS</span><strong>평일 11:00–20:00 · 주말 11:00–18:00</strong><small>수요일 휴무 · 평일 19시 이후 예약 필수</small></div><div><span>PARKING</span><strong>지하 2층·3층 무료 주차</strong></div><a href="https://naver.me/FuzU2m0e" target="_blank" rel="noreferrer">네이버 지도에서 위치 보기 <span>↗</span></a></div></div></section>
 
       <footer className="fit-footer"><a className="fit-brand" href="#home"><span className="brand-mark">B<span>·</span></span><span>바른골프피팅센터<small>DONGNAE · BUSAN</small></span></a><span>정확한 피팅, 더 즐거운 골프.</span><small>© 2026 바른골프피팅센터 동래점</small></footer>
     </main>
