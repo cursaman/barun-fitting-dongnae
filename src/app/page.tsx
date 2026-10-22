@@ -29,7 +29,7 @@ export default function Home() {
       </section>
 
       <section className="fit-intro" id="studio">
-        <div className="intro-label"><span>ABOUT GREENPOINT</span><span>01 — 04</span></div>
+        <div className="intro-label"><span>ABOUT BARUN FITTING</span><span>01 — 04</span></div>
         <div className="intro-copy"><h2>클럽이 바뀌면<br />골프가 <em>달라집니다.</em></h2><div><p>바른골프피팅 동래점은 클럽 맞춤 제작과 리샤프팅, 수리, 그립 교체를 전문으로 합니다. 내 스윙과 플레이에 맞는 클럽을 상담해 보세요.</p><a href="#process" className="under-link">우리의 피팅 방식 <span>↗</span></a></div></div>
         <div className="intro-stats"><div><strong>1:1</strong><span>골퍼별 맞춤 세션</span></div><div><strong>DATA</strong><span>측정에 기반한 피팅</span></div><div><strong>ALL LEVELS</strong><span>초보부터 투어 골퍼까지</span></div></div>
       </section>
